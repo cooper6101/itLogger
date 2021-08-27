@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "http-proxy-middleware": "^2.0.1",
     "materialize-css": "^1.0.0",
     "moment": "^2.24.0",
     "react": "^16.8.6",
@@ -21,8 +20,7 @@
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm run json-server npm start"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
